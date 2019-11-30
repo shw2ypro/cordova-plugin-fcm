@@ -10,15 +10,6 @@ buildscript {
     }
 }
 
-allprojects {
-repositories {
-    google()
-    jcenter()
-}
-task clean(type: Delete) {
-delete rootProject.buildDir
-}
-
 dependencies {
     compile 'com.google.firebase:firebase-core:16.0.4'
 }

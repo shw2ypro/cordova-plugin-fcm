@@ -10,13 +10,13 @@ buildscript {
 }
 
 allprojects {
-repositories {
-    jcenter()
+	repositories {
+	    jcenter()
+	}
+	task clean(type: Delete) {
+		delete rootProject.buildDir
+	}
 }
-task clean(type: Delete) {
-delete rootProject.buildDir
-}
-
 // apply plugin: 'com.google.gms.google-services'
 // class must be used instead of id(string) to be able to apply plugin from non-root gradle file
 apply plugin: com.google.gms.googleservices.GoogleServicesPlugin

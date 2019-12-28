@@ -65,8 +65,8 @@
 				</feature>
 		</config-file>
 		
-        <framework src="com.google.firebase:firebase-analytics:17.2.1" />
-        <framework src="com.google.firebase:firebase-messaging:20.1.0" />
+        <framework src="com.google.firebase:firebase-core:16.0.4" />
+        <framework src="com.google.firebase:firebase-messaging:17.3.4" />
 		
 		<framework src="src/android/FCMPlugin.gradle" custom="true" type="gradleReference"/>
 			
